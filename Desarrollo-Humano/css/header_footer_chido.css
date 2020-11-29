@@ -1,0 +1,100 @@
+
+*{margin: 0; padding: 0; }
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+  
+#content-wrap {
+    /* padding-bottom: 2.5rem; */    /* Footer height */
+}
+
+/*header*/
+
+.cabecera{
+    display: flex;
+    background-color: #0E153B;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    
+}
+
+.cabecera .logo-des{
+    width: 100px;
+    height: 70px;
+}
+
+.cabecera .logo-uca{
+    width: 200px;
+    height: 70px;
+}
+.cabecera .title{
+    color: #ffffff;
+}
+
+
+.tema{
+    background-color: #00fff0;
+}
+
+
+.enlace-header{
+    color: #000000;
+    font-weight: bold;
+}
+
+
+
+.sticky{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.barside{
+    width: 19%;
+    position: absolute;
+    background-color: #c4c4c4;
+}
+
+.nav-link{
+    color: #000000;
+    font-weight: bold;
+}
+
+.li-header{
+    border-bottom: 0.5px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0E153B;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    color: #ffffff;
+  }
+
+
+.icons{
+    width: 20px;
+    height: 20px;
+}
+
+.enlace-footer{
+      color: #ffffff;
+}
+
+.enlace-footer:hover{
+    color: #00fff0;
+}

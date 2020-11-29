@@ -1,0 +1,31 @@
+main{
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    
+}
+
+
+.tarjeta{
+    background-color: #c4c4c4;
+}
+
+
+.seleccion{
+    background-color: transparent;
+    font-weight: bold;
+    text-align-last: center;
+    border: 1px solid #000000;
+}
+
+
+.label-select{
+    font-weight: bold;
+}
+
+
+.imagen-material{
+    /* width: 250px;
+    height: 250px; */
+}
